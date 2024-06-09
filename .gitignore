@@ -1,0 +1,5 @@
+.idea
+# Project exclude paths
+/customer/target/
+/eureka-server/target/
+/fraud/target/
