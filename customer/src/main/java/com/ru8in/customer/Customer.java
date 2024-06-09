@@ -16,8 +16,6 @@ import jakarta.persistence.*;
 @Entity
 public class Customer {
 
-
-
     @Id
     @SequenceGenerator(
             name="customer_id_sequence",

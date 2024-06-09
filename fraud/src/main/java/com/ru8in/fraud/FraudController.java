@@ -1,6 +1,7 @@
 package com.ru8in.fraud;
 
 
+import com.ru8in.clients.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
