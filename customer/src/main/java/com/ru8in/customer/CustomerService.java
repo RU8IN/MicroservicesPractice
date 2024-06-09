@@ -4,7 +4,6 @@ import com.ru8in.clients.fraud.FraudCheckResponse;
 import com.ru8in.clients.fraud.FraudClient;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
 @Service
 @AllArgsConstructor
