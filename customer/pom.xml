@@ -9,7 +9,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>ru8in.labs.web</groupId>
     <artifactId>customer</artifactId>
 
     <properties>
@@ -39,7 +38,7 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>ru8in.labs.web</groupId>
+            <groupId>com.ru8in</groupId>
             <artifactId>fraud</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
