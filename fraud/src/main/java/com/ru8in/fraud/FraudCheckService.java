@@ -18,10 +18,10 @@ public class FraudCheckService {
         fraudCheckHistoryRepository.save(
                 FraudCheckHistory.builder()
                         .customerId(customerId)
-                        .isFraudster(randomBoolean)
+                        .isFraudster(false)
                         .createdAt(LocalDateTime.now())
                         .build()
         );
-        return randomBoolean;
+        return false;
     }
 }
