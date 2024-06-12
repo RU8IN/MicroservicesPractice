@@ -1,7 +1,7 @@
 package com.ru8in.notification;
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.sql.Timestamp;
